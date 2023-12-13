@@ -9,7 +9,8 @@ class Separated extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ListView.builder'),
+        title: const Text('ListView.separated'),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: ListView.separated(
         itemCount: items.length,

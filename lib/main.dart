@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'ListView.builder Example',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorSchemeSeed: Colors.blue,
       ),
       home: Separated(),
     );
